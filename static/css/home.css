@@ -1,53 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 71%}
-    50%{background-position:100% 30%}
-    100%{background-position:0% 71%}
-
-
-}
-
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 71%}
-    50%{background-position:100% 30%}
-    100%{background-position:0% 71%}
-
-
-}
-@keyframes AnimationName {
-    0%{background-position:0% 71%}
-    50%{background-position:100% 30%}
-    100%{background-position:0% 71%}
-
-
-}
-
-
 *
 {
-
-
-    background: linear-gradient(58deg, #e3d1b2, #c3b7a3);
-    background-size: 400% 400%;
-
-
-    -webkit-animation: AnimationName 13s ease infinite;
-    -moz-animation: AnimationName 13s ease infinite;
-    animation: AnimationName 13s ease infinite;
-    margin: 0;
-    padding: 0;                 
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
-
 
 header
 {
-    
-
   position: absolute;
   top: 0;
   left: 0;
@@ -58,12 +19,14 @@ header
   justify-content: space-between;
   align-items: center;
 }
+
 header .logo
 {
-  color: #fff;
+  color: #dbc6e9;
   text-transform: uppercase;
   cursor: pointer;
 }
+
 .toggle
 {
   position: relative;
@@ -119,6 +82,7 @@ header .logo
   left: 0;
   width: 100%;
   height: 100%;
+  background: #03a9f4;
   mix-blend-mode: overlay;
 }
 .text
@@ -205,21 +169,6 @@ header .logo
   justify-content: center;
   align-items: center;
 }
-.menu ul
-{
-  position: relative;
-}
-.menu ul li
-{
-  list-style: none;
-}
-.menu ul li a
-{
-  text-decoration: none;
-  font-size: 24px;
-  color: #111;
-}
-
 
 @media (max-width: 991px)
 {
